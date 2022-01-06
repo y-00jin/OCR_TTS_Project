@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/TextViewMain"
+        android:layout_width="match_parent"
+        android:layout_height="330dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:background="#D9E5FF"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:typeface="monospace"
+
+        android:shadowRadius="7.0"
+        android:shadowDx="7.0"
+        android:shadowDy="7.0"
+        android:shadowColor="#002266"
+
+        android:layout_alignParentTop="true"
+
+        android:text="' OCR_TTS '" />
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_below="@id/TextViewMain"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textSize="20dp"
+        android:backgroundTint="#002266"
+
+
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+
+        android:text="시작" />
+
+</RelativeLayout>
